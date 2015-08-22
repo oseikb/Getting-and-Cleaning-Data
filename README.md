@@ -25,3 +25,8 @@ were rbind together (x_train on top of x_test). The column names of the newdf da
 newdt was cbind to subjects to give the dataframe access to the subjects of this experiment. Finally, newdt was merged with ..act labels.. not sure about this part.
 
 ##Subsetting and tidying data
+The final portion of the code does the final preparation before it is writtent to a text file. First, it subsets the data frame by using columns that only gives mean and standard deviation values. A text file was created and loadedd into a vector called "new_act_labels" that contains the new deconstruction column names for the subsetted columns. They are passed into the data frame via colnames function. 
+The data frame is them split on the subjectID and LabelID's and column means are taken across all the columns. The resultant would be a list and has to be converted back to a data frame. There are two nested data.frame functions. The first one converts it into a data.frame but it would have been flipped, rows are columns and columns are rows. The second data.frame call in comnbination with the parameter "t" returned it to its original form.
+The labelID is now removed by merging the labels data frame with the allColMeans data frame to show the activity names and the columns. Column 1 was removed because there is no longer a need for the labelID.
+The values for the means and standard deviation were of varying lengths, so across these columns values, each one was rounded to 8 significant figures for uniformity.
+Finally, the data frame was written to a text file called allmeans.txt

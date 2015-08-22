@@ -54,6 +54,17 @@ allColMeans_inv <- merge(act_labels, allColMeans_inv, by.x = "LabelID", by.y = "
 
 allColMeans_inv <- allColMeans_inv[, 2:69]
 
+#This is rounding all values to 8 significant figures
+for (i in 1:nrow(allColMeans_inv)) 
+{
+  
+  for (j in 2:ncol(allColMeans_inv))
+  {
+    allColMeans_inv[i, j] <- round(allColMeans_inv[i, j], digits = 8)
+  }
+  
+}
+
 write.table(allColMeans_inv, file = "./G-C-D/Project/allmeans.txt", row.names = FALSE)
 
 

@@ -1,0 +1,246 @@
+#Code Book for Getting and Cleaning Data Project
+
+                                    ##Data Dictionary
+                                    
+ActivityNames   18
+    Activity
+    WALKING
+    WALKING_UPSTAIRS
+    WALKING_DOWNSTAIRS
+    SITTING
+    STANDING
+    LAYING
+
+SubjectID       2
+    Subject
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    11
+    12
+    13
+    14
+    15
+    16
+    17
+    18
+    19
+    20
+    21
+    22
+    23
+    24
+    25
+    26
+    27
+    28
+    29
+    30
+  
+TimeBodyAcceleroMean-X    8
+    numeric
+    
+TimeBodyAcceleroMean-Y    8
+    numeric
+
+TimeBodyAcceleroMean-Z    8
+    numeric
+
+TimeBodyAcceleroStdDev-X    8
+    numeric
+
+TimeBodyAcceleroStdDev-Y    8
+    numeric
+
+TimeBodyAcceleroStdDev-Z    8
+    numeric
+
+TimeGravityAcceleroMean-X    8
+    numeric
+
+TimeGravityAcceleroMean-Y    8
+    numeric
+
+TimeGravityAcceleroMean-Z    8
+    numeric
+
+TimeGravityAcceleroStdDev-X    8
+    numeric
+
+TimeGravityAcceleroStdDev-Y    8
+    numeric
+
+TimeGravityAcceleroStdDev-Z    8
+    numeric
+
+TimeBodyAcceleroJerkMean-X    8
+    numeric
+
+TimeBodyAcceleroJerkMean-Y    8
+    numeric
+
+TimeBodyAcceleroJerkMean-Z    8
+    numeric
+
+TimeBodyAcceleroJerkStdDev-X    8
+    numeric
+
+TimeBodyAcceleroJerkStdDev-Y    8
+    numeric
+
+TimeBodyAcceleroJerkStdDev-Z    8
+    numeric
+
+TimeBodyGyroMean-X    8
+    numeric
+
+TimeBodyGyroMean-Y    8
+    numeric
+
+TimeBodyGyroMean-Z    8
+    numeric
+
+TimeBodyGyroStdDev-X    8
+    numeric
+
+TimeBodyGyroStdDev-Y    8
+    numeric
+
+TimeBodyGyroStdDev-Z    8
+    numeric
+
+TimeBodyGyroJerkMean-X    8
+    numeric
+
+TimeBodyGyroJerkMean-Y    8
+    numeric
+
+TimeBodyGyroJerkMean-Z    8
+    numeric
+
+TimeBodyGyroJerkStdDev-X    8
+    numeric
+
+TimeBodyGyroJerkStdDev-Y    8
+    numeric
+
+TimeBodyGyroJerkStdDev-Z    8
+    numeric
+
+TimeBodyAcceleroMagMean    8
+    numeric
+
+TimeBodyAcceleroMagStdDev    8
+    numeric
+
+TimeGravityAcceleroMagMean    8
+    numeric
+
+TimeGravityAcceleroMagStdDev    8
+    numeric
+
+TimeGravityAcceleroJerkMagMean    8
+    numeric
+
+TimeGravityAcceleroJerkMagStdDev    8
+    numeric
+
+TimeBodyGyroMagMean    8
+    numeric
+
+TimeBodyGyroMagStdDev    8
+    numeric
+
+TimeBodyGyroJerkMagMean    8
+    numeric
+
+TimeBodyGyroJerkMagStdDev    8
+    numeric
+
+FreqBodyAcceleroMean-X    8
+    numeric
+
+FreqBodyAcceleroMean-Y    8
+    numeric
+
+FreqBodyAcceleroMean-Z    8
+    numeric
+
+FreqBodyAcceleroStdDev-X    8
+    numeric
+
+FreqBodyAcceleroStdDev-Y    8
+    numeric
+
+FreqBodyAcceleroStdDev-Z    8
+    numeric
+
+FreqBodyAcceleroJerkMean-X    8
+    numeric
+
+FreqBodyAcceleroJerkMean-Y    8
+    numeric
+
+FreqBodyAcceleroJerkMean-Z    8
+    numeric
+
+FreqBodyAcceleroJerkStdDev-X    8
+    numeric
+
+FreqBodyAcceleroJerkStdDev-Y    8
+    numeric
+
+FreqBodyAcceleroJerkStdDev-Z    8
+    numeric
+
+FreqBodyGyroMean-X    8
+    numeric
+
+FreqBodyGyroMean-Y    8
+    numeric
+
+FreqBodyGyroMean-Z    8
+    numeric
+
+FreqBodyGyroStdDev-X    8
+    numeric
+
+FreqBodyGyroStdDev-Y    8
+    numeric
+
+FreqBodyGyroStdDev-Z    8
+    numeric
+
+FreqBodyAcceleroMagMean    8
+    numeric
+
+FreqBodyAcceleroMagStdDev    8
+    numeric
+
+FreqBodyBodyAcceleroJerkMagMean    8
+    numeric
+
+FreqBodyBodyAcceleroJerkMagStdDev    8
+    numeric
+
+FreqBodyBodyGyroMagMean    8
+    numeric
+
+FreqBodyBodyGyroMagStdDev    8
+    numeric
+
+FreqBodyBodyGyroJerkMagMean    8
+    numeric
+
+FreqBodyBodyGyroJerkMagStdDev    8
+    numeric
+
+
+
